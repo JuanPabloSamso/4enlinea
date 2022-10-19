@@ -12,10 +12,10 @@ class InLine:
                 return row
 
     def turn(self):
-        if self.player == 1:
-            self.player +=1
-        else:
-            self.player -= 1
+            if self.player == 1:
+                self.player +=1
+            else:
+                self.player -= 1
 
     def throw_coin(self,col):
         if self.player == 1: 
